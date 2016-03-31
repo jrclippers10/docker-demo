@@ -1,0 +1,11 @@
+{
+  "name": "world",
+  "port": 5001,
+  "checks": [
+    {
+      "http": "http://192.168.99.100:5001/health_check",
+      "interval": "5s"
+    }
+  ]
+}
+    
